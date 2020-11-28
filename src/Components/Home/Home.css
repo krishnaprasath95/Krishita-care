@@ -1,0 +1,28 @@
+.bannerHome{
+    background: url('./bannerHome.png') no-repeat  ;
+    width: 100%;
+    height:90vh;
+    margin-top:14vh;
+    background-size: cover;
+}
+.scheduleContainer{
+    width:100%;
+    height:auto;
+    background-color: rgb(253, 127, 127);
+}
+
+@media only screen and (max-width:700px){
+    .bannerHome{
+        width:100%;
+        height:50vh;
+    }
+}
+@media only screen and (max-width:450px){
+    .bannerHome{
+        width:100%;
+        height:45vh;
+    }
+    .btn{
+        margin-top:60px;
+    }
+}

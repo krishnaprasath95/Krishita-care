@@ -1,0 +1,24 @@
+.colorNav{
+    background-color: #f7dfc9;
+    height:14vh;
+}
+.colorNav a{
+    color:rgb(131, 46, 7);
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    padding:0px 10px 0px 10px;
+}
+.customToggle{
+    border-color:rgb(105, 240, 64);
+}
+.customToggle:hover{
+    border-color:rgb(130,55,14);
+}
+
+.navbar-toggler:focus, 
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
